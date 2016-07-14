@@ -1,0 +1,5 @@
+version: 1.0.1
+displayName: Single Page Navigation Component
+dependencies:
+  mtk:
+    version: 0.11.0/*

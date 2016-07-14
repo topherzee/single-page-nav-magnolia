@@ -1,6 +1,6 @@
 {
   "name": "single-page-nav-component",
-  "version": "1.1.0",
+  "version": "1.0.1",
   "description": "Single Page Navigation - Component templates for Magnolia CMS",
   "main": "index.js",
   "scripts": {
