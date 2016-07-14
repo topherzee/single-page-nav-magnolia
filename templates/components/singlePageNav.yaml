@@ -1,0 +1,3 @@
+renderType: freemarker
+templateScript: /single-page-nav-component/templates/components/singlePageNav.ftl
+dialog: single-page-nav-component:components/singlePageNav

@@ -1,0 +1,5 @@
+renderType: freemarker
+templateScript: /single-page-nav-component/templates/components/sectionHeader.ftl
+dialog: single-page-nav-component:components/sectionHeader
+
+type: sectionHeader

@@ -1,0 +1,19 @@
+title: Demo - single-page-nav-component
+templateScript: /single-page-nav-component/templates/pages/demo.ftl
+renderType: freemarker
+dialog: mtk:pages/basic
+visible: true
+
+areas:
+  navigation:
+    type: single
+    templateScript: /single-page-nav-component/templates/components/singlePageNav.ftl
+    dialog: single-page-nav-component:components/singlePageNav
+  main:
+    availableComponents:
+      singlePageNav:
+        id: single-page-nav-component:components/singlePageNav
+      sectionHeader:
+        id: single-page-nav-component:components/sectionHeader
+      sectionHeader:
+        id: mtk:components/textImage

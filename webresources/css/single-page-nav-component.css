@@ -1,0 +1,22 @@
+
+
+@media (min-width: 768px) {
+
+    .navbar-default {
+        background-color: transparent;
+        padding: 25px 0;
+        transition: padding .3s;
+        border: 0
+    }
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        transition: all .3s
+    }
+    .navbar-default.navbar-shrink {
+        background-color: #ccc;
+        padding: 10px 0
+    }
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em
+    }
+}

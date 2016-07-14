@@ -1,0 +1,16 @@
+column1:
+  availableComponents:
+    sectionHeader:
+      id: single-page-nav-component:components/sectionHeader
+column2:
+  availableComponents:
+    sectionHeader:
+      id: single-page-nav-component:components/sectionHeader
+column3:
+  availableComponents:
+    sectionHeader:
+      id: single-page-nav-component:components/sectionHeader
+column4:
+  availableComponents:
+    sectionHeader:
+      id: single-page-nav-component:components/sectionHeader
