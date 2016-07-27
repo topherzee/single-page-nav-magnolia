@@ -7,13 +7,12 @@ visible: true
 areas:
   navigation:
     type: single
-    templateScript: /single-page-nav-component/templates/components/singlePageNav.ftl
-    dialog: single-page-nav-component:components/singlePageNav
-  main:
     availableComponents:
       singlePageNav:
         id: single-page-nav-component:components/singlePageNav
+  main:
+    availableComponents:
       sectionHeader:
         id: single-page-nav-component:components/sectionHeader
-      sectionHeader:
+      textImage:
         id: mtk:components/textImage

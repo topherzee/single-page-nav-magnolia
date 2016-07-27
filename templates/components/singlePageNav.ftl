@@ -23,7 +23,7 @@
         [#list areas as area ]
           [#assign components = cmsfn.children(area)]
           [#list components as component ]
-            [#if cmsfn.hasTemplateOfType(component,"sectionHeader") ]
+            [#if cmsfn.hasTemplateOfType(component, def.parameters.navItemType!"") ]
               <li>
                 <a class="page-scroll" href="#link-${(component.anchorId)!component.@id}">${component.titleNav!component.title!}</a>
               </li>
