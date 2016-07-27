@@ -8,6 +8,8 @@ This set of two components provides a navigation which displays internal links t
 Javascript is used to highlight the navigation for whichever section is in the view,
 and to provide smooth scrolling when links are clicked.
 
+![Demo page with component](README-screenshot-single-page-nav.png)
+
 ## Usage ##
 Use these components as is, or simply as a starting point or inspiration for how to accomplish this common task.
 
