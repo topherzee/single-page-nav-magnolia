@@ -1,6 +1,6 @@
 renderType: freemarker
-templateScript: /single-page-nav-component/templates/components/singlePageNav.ftl
-dialog: single-page-nav-component:components/singlePageNav
+templateScript: /single-page-nav-magnolia/templates/components/singlePageNav.ftl
+dialog: single-page-nav-magnolia:components/singlePageNav
 
 parameters:
   navItemType: sectionHeader

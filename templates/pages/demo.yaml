@@ -1,5 +1,5 @@
-title: Demo - single-page-nav-component
-templateScript: /single-page-nav-component/templates/pages/demo.ftl
+title: Demo - single-page-nav-magnolia
+templateScript: /single-page-nav-magnolia/templates/pages/demo.ftl
 renderType: freemarker
 dialog: mtk:pages/basic
 visible: true
@@ -9,10 +9,10 @@ areas:
     type: single
     availableComponents:
       singlePageNav:
-        id: single-page-nav-component:components/singlePageNav
+        id: single-page-nav-magnolia:components/singlePageNav
   main:
     availableComponents:
       sectionHeader:
-        id: single-page-nav-component:components/sectionHeader
+        id: single-page-nav-magnolia:components/sectionHeader
       textImage:
         id: mtk:components/textImage

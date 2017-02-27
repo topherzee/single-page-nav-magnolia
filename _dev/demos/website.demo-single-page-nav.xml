@@ -4,7 +4,7 @@
     <sv:value>mgnl:page</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-    <sv:value>mix:lockable</sv:value>
+    <sv:value>mgnl:hasVersion</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>fa4c20ac-e3d5-4d95-92ff-834fc33354c6</sv:value>
@@ -15,30 +15,39 @@
   <sv:property sv:name="jcr:createdBy" sv:type="String">
     <sv:value>admin</sv:value>
   </sv:property>
+  <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:comment" sv:type="String">
+    <sv:value/>
+  </sv:property>
   <sv:property sv:name="mgnl:created" sv:type="Date">
     <sv:value>2016-07-27T12:58:43.252+02:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:createdBy" sv:type="String">
     <sv:value>superuser</sv:value>
   </sv:property>
+  <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+    <sv:value>2017-02-27T20:18:51.181+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
   <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-    <sv:value>2016-07-27T13:04:14.131+02:00</sv:value>
+    <sv:value>2017-02-27T20:17:27.332+01:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:template" sv:type="String">
-    <sv:value>single-page-nav-component:pages/demo</sv:value>
+    <sv:value>single-page-nav-magnolia:pages/demo</sv:value>
   </sv:property>
   <sv:property sv:name="title" sv:type="String">
-    <sv:value>Demo - single-page-nav-component</sv:value>
+    <sv:value>Demo - Single Page Nav</sv:value>
   </sv:property>
   <sv:node sv:name="navigation">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:area</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:lockable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>38ccc274-c43b-4675-b75f-3cfc18edd3fe</sv:value>
@@ -46,10 +55,19 @@
     <sv:property sv:name="jcr:createdBy" sv:type="String">
       <sv:value>admin</sv:value>
     </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
     <sv:property sv:name="mgnl:created" sv:type="Date">
       <sv:value>2016-07-27T12:59:22.008+02:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2017-02-27T20:18:51.182+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
@@ -68,10 +86,19 @@
       <sv:property sv:name="jcr:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
       <sv:property sv:name="mgnl:created" sv:type="Date">
         <sv:value>2016-07-27T12:59:28.887+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2017-02-27T20:18:51.182+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
@@ -81,7 +108,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:template" sv:type="String">
-        <sv:value>single-page-nav-component:components/singlePageNav</sv:value>
+        <sv:value>single-page-nav-magnolia:components/singlePageNav</sv:value>
       </sv:property>
       <sv:property sv:name="title" sv:type="String">
         <sv:value>My Nav</sv:value>
@@ -92,19 +119,25 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:area</sv:value>
     </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:lockable</sv:value>
-    </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>e7b34ed2-91ac-407a-8991-6b754a061359</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:createdBy" sv:type="String">
       <sv:value>admin</sv:value>
     </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
     <sv:property sv:name="mgnl:created" sv:type="Date">
       <sv:value>2016-07-14T09:48:02.354+02:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2017-02-27T20:18:51.182+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
@@ -126,10 +159,19 @@
       <sv:property sv:name="jcr:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
       <sv:property sv:name="mgnl:created" sv:type="Date">
         <sv:value>2016-07-14T09:52:18.862+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2017-02-27T20:18:51.183+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
@@ -139,7 +181,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:template" sv:type="String">
-        <sv:value>single-page-nav-component:components/sectionHeader</sv:value>
+        <sv:value>single-page-nav-magnolia:components/sectionHeader</sv:value>
       </sv:property>
       <sv:property sv:name="position" sv:type="String">
         <sv:value>bottom</sv:value>
@@ -162,7 +204,7 @@
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
-        <sv:value>false</sv:value>
+        <sv:value>true</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:created" sv:type="Date">
         <sv:value>2016-07-14T09:52:24.198+02:00</sv:value>
@@ -171,7 +213,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2016-07-14T09:52:24.199+02:00</sv:value>
+        <sv:value>2017-02-27T20:18:51.183+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -183,7 +225,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:template" sv:type="String">
-        <sv:value>single-page-nav-component:components/sectionHeader</sv:value>
+        <sv:value>single-page-nav-magnolia:components/sectionHeader</sv:value>
       </sv:property>
       <sv:property sv:name="position" sv:type="String">
         <sv:value>bottom</sv:value>
@@ -212,7 +254,7 @@
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
-        <sv:value>false</sv:value>
+        <sv:value>true</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:created" sv:type="Date">
         <sv:value>2016-07-14T09:57:41.664+02:00</sv:value>
@@ -221,7 +263,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2016-07-14T09:57:41.665+02:00</sv:value>
+        <sv:value>2017-02-27T20:18:51.183+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -233,7 +275,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:template" sv:type="String">
-        <sv:value>single-page-nav-component:components/sectionHeader</sv:value>
+        <sv:value>single-page-nav-magnolia:components/sectionHeader</sv:value>
       </sv:property>
       <sv:property sv:name="position" sv:type="String">
         <sv:value>bottom</sv:value>
@@ -259,7 +301,7 @@
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
-        <sv:value>false</sv:value>
+        <sv:value>true</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:created" sv:type="Date">
         <sv:value>2016-07-14T09:58:23.368+02:00</sv:value>
@@ -268,7 +310,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-        <sv:value>2016-07-14T09:58:23.369+02:00</sv:value>
+        <sv:value>2017-02-27T20:18:51.183+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -280,7 +322,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:template" sv:type="String">
-        <sv:value>single-page-nav-component:components/sectionHeader</sv:value>
+        <sv:value>single-page-nav-magnolia:components/sectionHeader</sv:value>
       </sv:property>
       <sv:property sv:name="position" sv:type="String">
         <sv:value>bottom</sv:value>

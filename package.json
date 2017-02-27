@@ -1,30 +1,24 @@
 {
-  "name": "single-page-nav-component",
-  "version": "1.0.5",
+  "name": "single-page-nav-magnolia",
+  "version": "1.0.6",
   "description": "Single Page Navigation - Component templates for Magnolia CMS",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/topherzee/single-page-nav-component.git"
+    "url": "git+https://github.com/topherzee/single-page-nav-magnolia.git"
   },
   "keywords": [
     "magnolia-light-module",
     "magnolia-component",
-    "magnolia",
-    "light",
-    "module",
-    "template",
-    "component",
-    "cms",
-    "navigation"
+    "navigation",
+    "single page navigation"
   ],
   "author": "Christopher Zimmermann",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/topherzee/single-page-nav-component/issues"
+    "url": "https://github.com/topherzee/single-page-nav-magnolia/issues"
   },
-  "homepage": "https://github.com/topherzee/single-page-nav-component#readme"
+  "homepage": "https://github.com/topherzee/single-page-nav-magnolia#readme"
 }
